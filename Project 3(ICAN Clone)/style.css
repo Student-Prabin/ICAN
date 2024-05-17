@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.navbar{
+    height: 80px;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 400px;
+    margin-left: 90px;
+}
+.photo{
+    background-image: url("ICAN_logo.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+}
+.top-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#d52a23;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn{
+    border: 1px solid #0f2d61;
+    border-radius: 20px;
+    color: #0f2d61;
+    border-color: var(--main-color);
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+
+
+.Contact{
+    display:flex;
+    color:#0f2d61;
+    border: 2px solid #0f2d61 ;
+    border-radius: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgb(55, 55, 252);
+    color: white;
+}
+.search-box{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+input{
+    border: 1px solid rgba(0, 0, 0, 0.363) ;
+    font-size: 13px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 4px;
+    margin-left: 50px;
+    height: 38px;
+    width: 200px;
+}
+.search-icon{
+    width: 50px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-color: #FFFFFF;
+    background-color: #CCCCCC;
+    
+}
+
+.data{
+    width: 90%;
+    margin-left: 400px;
+}
+.pannel{
+    width:100vw;
+    height: 40px;
+    background-color: #0f2d61;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pannel-ops p{
+    display:inline;
+    
+    margin-left:15px;
+    
+}
+.suprise:hover{
+    background-color: #d52a23;
+
+}
+.hero-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100vw;
+   
+}
+.hero-image{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 85%;
+}
+.logo-section{
+    height: 500px;
+    width: 86%  ;
+    display: flex;
+    justify-content: center;
+    margin-left: 7.5%;
+    color: var(--body-color);
+    font-family: var(--secondary-font);
+
+}
+.icon-box-inner{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.icon-list {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding: 1rem 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.icon-list:hover{
+    background-color:white;
+    transition:steps(1);
+}
+a{
+    color:#d52a23;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.icon-wrap{
+    color: #0f2d61;
+    font-size: 30px;
+}
+
+
+
+.box{
+    height: 400px;
+    width:400px;
+    background-color: #ccccccab;
+    text-align: center;
+    transition: transform 0.3s ease;
+    
+}
+.box-img{
+    height: 200px;
+    background-size: cover;
+   
+    margin-bottom: 1rem;;
+    
+}
+.bhado{
+        height: 500px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.box:hover {
+    transform: translateY(-7px);
+  }
+  h2{
+    color: #d52a23;
+  }
+  
